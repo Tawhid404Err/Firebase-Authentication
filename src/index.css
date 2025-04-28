@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.background-img {
+  background-image: url(https://cdn.wallpapersafari.com/21/8/M7fdoJ.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
+
+.glass-morf {
+  @apply h-full w-full bg-gray-800 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100;
+}
