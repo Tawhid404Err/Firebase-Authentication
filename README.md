@@ -1,13 +1,17 @@
 # Firebase Authentication App
 
-A lightweight React application that demonstrates user authentication using Firebase Authentication services. This sleek, minimalist interface allows users to securely create accounts with email and password while providing visual feedback through a modern, responsive design.
+A lightweight React application that demonstrates user authentication using Firebase Authentication services. This sleek, minimalist interface allows users to securely create accounts and log in with email and password while providing visual feedback through a modern, responsive design with a glass-morphism UI aesthetic.
 
 ## Features
 
-- Email and password user registration
+- User registration with email and password
+- User login with existing credentials
+- Toggle between login and signup modes
 - Real-time form validation and user feedback
+- Password visibility toggle
 - Responsive design with Tailwind CSS
 - Firebase authentication integration
+- Clean, glass-morphism UI with backdrop blur effects
 
 ## Getting Started
 
@@ -41,7 +45,12 @@ npm run dev
 
 ## Usage
 
-The application provides a simple interface for users to create accounts. Enter your email and password in the respective fields and click "Create user" to register.
+The application provides a simple, intuitive interface for users to create accounts or log in:
+
+1. Toggle between "Signup" and "Login" modes using the slider button
+2. Enter your email and password in the respective fields
+3. Click "Create user" to register a new account or "Login" to sign in with existing credentials
+4. Use the eye icon to toggle password visibility
 
 ## Technologies Used
 
@@ -50,7 +59,10 @@ The application provides a simple interface for users to create accounts. Enter 
 - Tailwind CSS
 - React Icons
 
-## Additional Features
+## UI Features
 
+- Interactive login/signup mode toggle
 - Password visibility toggle
-- Clean, glass-morphism UI with backdrop blur effects
+- Animated glass-morphism UI with backdrop blur effects
+- Responsive design that works across devices
+- Visual feedback for user actions

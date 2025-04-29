@@ -7,7 +7,3 @@
   background-repeat: no-repeat;
   background-position: fixed;
 }
-
-.glass-morf {
-  @apply h-full w-full bg-gray-800 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100;
-}
