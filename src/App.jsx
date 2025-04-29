@@ -1,4 +1,4 @@
-import LoginSignin from "./components/LoginSignin";
+import LoginSignin from './components/LoginSignin';
 
 const App = () => {
   return <LoginSignin />;

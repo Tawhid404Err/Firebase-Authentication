@@ -35,9 +35,17 @@ git clone https://github.com/yourusername/firebase-authentication-app.git
 npm install
 ```
 
-3. Set up your Firebase configuration in `config/firebase.js`
+3. Install Firebase, React Icons, and Tailwind CSS
 
-4. Start the development server
+```
+npm install firebase react-icons
+npm install tailwindcss @tailwindcss/vite
+npm install -D prettier prettier-plugin-tailwindcss
+```
+
+4. Set up your Firebase configuration in `config/firebase.js`
+
+5. Start the development server
 
 ```
 npm run dev
