@@ -35,7 +35,7 @@ git clone https://github.com/yourusername/firebase-authentication-app.git
 npm install
 ```
 
-3. Install Firebase, React Icons, and Tailwind CSS
+3. Install Firebase, React Icons, Tailwind CSS and Prettier
 
 ```
 npm install firebase react-icons
