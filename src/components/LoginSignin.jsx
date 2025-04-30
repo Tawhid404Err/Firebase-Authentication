@@ -27,24 +27,21 @@ const LoginSignin = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [isActive, setIsActive] = useState(false);
-  const [displayUser, setDisplayUser] = useState(null);
 
   const signUpByGoogle = () => {
-    signInWithPopup(auth, googleProvider).then((value) =>
-      setDisplayUser(value.user.displayName)
-    );
+    signInWithPopup(auth, googleProvider).then((value) => {
+      console.log(value);
+    });
   };
 
   const signUpByGithub = () => {
-    signInWithPopup(auth, githubProvider).then((value) =>
-      setDisplayUser(value.user.displayName)
-    );
+    signInWithPopup(auth, githubProvider).then((value) => {
+      console.log(value);
+    });
   };
 
   const signUpByFacebook = () => {
-    signInWithPopup(auth, facebookProvider).then((value) =>
-      setDisplayUser(value.user.displayName)
-    );
+    signInWithPopup(auth, facebookProvider).then((value) => console.log(value));
   };
 
   const createUser = () => {
@@ -82,13 +79,6 @@ const LoginSignin = () => {
   return (
     <>
       <div className="background-img flex h-dvh w-full flex-col items-center justify-center">
-        {displayUser === null ? (
-          <h1></h1>
-        ) : (
-          <h1 className="mb-4 text-[2rem] text-white">
-            Wellcome {displayUser} 🎉✨
-          </h1>
-        )}
         <div className="flex h-[max-content] flex-col items-center rounded-[8px] border border-white/20 bg-white/10 px-8 py-8 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-[1px] select-none">
           <h1 className="text-[2rem] text-white">Connect with Us</h1>
 
