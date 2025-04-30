@@ -26,7 +26,7 @@ A lightweight React application that demonstrates user authentication using Fire
 1. Clone the repository
 
 ```
-git clone https://github.com/yourusername/firebase-authentication-app.git
+git clone https://github.com/Tawhid404Err/Firebase-Authentication.git
 ```
 
 2. Install dependencies
